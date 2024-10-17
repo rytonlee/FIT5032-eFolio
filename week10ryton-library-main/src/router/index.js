@@ -14,7 +14,7 @@ import CountBookAPI from '@/views/CountBookAPI.vue';
 
 
 const router = createRouter({
-  history: createWebHashHistory(process.env.BASE_URL),
+  history: createWebHistory(process.env.BASE_URL),
   routes: [
     {
       path: '/GetBookCount',
